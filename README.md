@@ -1,4 +1,22 @@
 # Bert_abuse_filtering
 
-데이터는 https://github.com/2runo/Curse-detection-data 의 Curse-detection-data와,  
-내가 수집한 데이터를 합쳐 데이터셋을 만들었다.
+## 프로젝트 개요
+
+**진행기간 : 2021.3 ~ 2021.11**
+ 
+**주요내용**
+ 
+- **BERT를 기반으로 한 한국어 욕설 댓글 탐지 모델을 설계한다.**
+
+**사용한 skill : Google colab, BERT, Google drive, 웹크롤링 등**
+
+**어려웠던점: 웹크롤링한 데이터를 모으고, 전처리하고, 레이블링 하는 작업을 전부 수작업을 해야 했다. 또한 수많은 욕설 댓글들을 읽으면서 마음이 힘들었다. 기본적으로 제공된 bert 코드를 어떻게 하면 내가 하고자 하는 작업으로 만들 수 있는지,코드를 수정한 후 어떻게 모델을 저장하고 모델을 통해 어떻게 욕설을 감지할 수 있을지 고민하고 공부했다.**
+
+**결과**
+- **정확도 : 86.3%**
+- **Recall : 81.6%**
+- **Precision : 81.1%**
+- **F1-score : 81.3%**
+
+
+데이터는 https://github.com/2runo/Curse-detection-data 의 Curse-detection-data와, 내가 수집한 데이터를 합쳐 데이터셋을 만들었다.
